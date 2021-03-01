@@ -26,7 +26,7 @@ public class Logout extends HttpServlet {
 				"  background-size: 100% 100%;\r\n" + 
 				"}</style></head><body>");
 		out.println("<br><br><h1 style ='align:center' 'color:red'>Thank you for visiting Supreme "+request.getParameter("fname")+"!!</h1>");
-		out.println("<br><br><br><a href=Welcome?name=\"+name+\">Login</a>\"");
+		out.println("<br><br><br><a href=SignIn?name=\"+name+\">Login</a>\"");
 		out.println("</body></html>");
 	}
 
